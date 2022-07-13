@@ -22,6 +22,7 @@ function App() {
         {sum.reduce((current, next) => {
           return current + next;
         })}
+        <button onClick={setSum([0, 0, 0, 0])}>Reset</button>
       </header>
     </div>
   );
